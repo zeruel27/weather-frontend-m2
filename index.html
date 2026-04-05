@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="asset/css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">El Clima <img src="asset/img/sunny_45dp_FFFF55.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home <i class="bi bi-house"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                mas clima
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="clima.html">Clima semanal <i class="bi bi-brightness-high"></i></a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+<br><br>
+  <div class="container">
+    <div class="row row-cols-5 row-cols-md-5 g-10">
+      <div class="col" id="Santiago">
+        <div class="card1 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+          <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Santiago</h5>
+             <p class="card-text"></p>
+             <div><h1 class="bi bi-thermometer-half" id="temp"></h1></div> <h2 class="bi bi-wind" id="viento"></h2>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card2 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+          <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Madrid</h5>
+            <p class="card-text"></p>
+            <h1 class="bi bi-thermometer-half" id="temp2"></h1> <h2 class="bi bi-wind" id="viento2"></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card3 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+          <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Londres</h5>
+            <p class="card-text"></p>
+            <h1 class="bi bi-thermometer-half" id="temp3"></h1> <h2 class="bi bi-wind" id="viento3"></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card4 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+          <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Moscu</h5>
+            <p class="card-text"></p>
+            <h1 class="bi bi-thermometer-half" id="temp4"></h1> <h2 class="bi bi-wind" id="viento4"></h2>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card5 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+          <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buenos aires</h5>
+            <p class="card-text"></p>
+            <h1 class="bi bi-thermometer-half" id="temp5"></h1> <h2 class="bi bi-wind" id="viento5"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+<br><br>
+    <div class="container">
+      <div class="row row-cols-5 row-cols-md-5 g-10">
+        <div class="col">
+          <div class="card6 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+            <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Berlin</h5>
+              <p class="card-text"></p>
+              <h1 class="bi bi-thermometer-half" id="temp6"></h1> <h2 class="bi bi-wind" id="viento6"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card7 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+            <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Beijing</h5>
+              <p class="card-text"></p>
+              <h1 class="bi bi-thermometer-half" id="temp7"></h1> <h2 class="bi bi-wind" id="viento7"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card8 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+            <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nueva york</h5>
+              <p class="card-text"></p>
+              <h1 class="bi bi-thermometer-half" id="temp8"></h1> <h2 class="bi bi-wind" id="viento8"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card9 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+            <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tokyo</h5>
+              <p class="card-text"></p>
+              <h1 class="bi bi-thermometer-half" id="temp9"></h1> <h2 class="bi bi-wind" id="viento9"></h2>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card10 h-100 text-white bg-primary mb-3" style="max-width: 18rem">
+            <img src="asset/img/screenxubo-sun-23076.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Paris</h5>
+              <p class="card-text"></p>
+              <h1 class="bi bi-thermometer-half" id="temp10"></h1> <h2 class="bi bi-wind" id="viento10"></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+     <a href="clima.html" class="btn btn-link">siguiente pagina</a>
+</body>
+
+    <script src="asset/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+
+
+</html>
