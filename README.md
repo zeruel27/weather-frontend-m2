@@ -3,7 +3,7 @@
 Pagina que permite ver el pronostico actual y semanal del tiempo de 10 ciudades del mundo
 
 ## Installation
-Mediante pagina github link: https://zeruel27.github.io/weather-frontend-m2/
+Mediante pagina github link: https://zeruel27.github.io/weather-fronted-m2/
 
 ## Usage
 
