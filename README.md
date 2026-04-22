@@ -13,6 +13,7 @@ Dar click sobre imagen sol en navbar retorna a pagina principal
 
 El boton despeglable es funcional para ir a pagina de pronostico semanal
 
+Se usa preprocesador sass con metodologia BEM en organizacion
 ## Contributing
 
 Para contribuciones contactar mediante mail ElClima@noexiste.com
