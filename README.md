@@ -11,7 +11,7 @@ Dar click sobre imagen de cuidad de santiago permite ir a pronostico semanal
 
 Dar click sobre imagen sol en navbar retorna a pagina principal 
 
-El boton despeglable funcional para ir a pagina de pronostico semanal
+El boton despeglable es funcional para ir a pagina de pronostico semanal
 
 ## Contributing
 

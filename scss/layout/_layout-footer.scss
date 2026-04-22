@@ -1,0 +1,9 @@
+@use "../abstracts/variable"as*;
+
+
+.l-footer {
+       background-color: $style1;
+       color: $style2;
+       border-radius: 15px;
+       box-shadow: 10px 10px 5px grey}
+   

@@ -1,0 +1,11 @@
+@mixin card-shadow{
+ border-radius: 15px;
+ box-shadow: 10px 10px 5px grey;}
+
+ @mixin navbar-shadow{
+   border-radius: 10px;
+   box-shadow: 10px 10px 5px grey;}
+
+   @mixin row {
+    display: flex;
+    justify-content: center;}

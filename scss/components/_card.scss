@@ -1,0 +1,15 @@
+
+@use "../abstracts/mixins"as*;
+
+
+.container--card{
+@include card-shadow;}
+
+
+.card-img-top{
+       cursor: pointer;
+}
+
+.container--row__tarjetas {
+    @include row;
+}

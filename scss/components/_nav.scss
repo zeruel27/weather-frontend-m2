@@ -1,0 +1,7 @@
+@use "../abstracts/mixins"as*;
+
+
+.navbar {
+    @include navbar-shadow;
+}
+
