@@ -21,16 +21,9 @@ El uso de sass se realiza por medio abstracts elementos reutilizables en: _mixin
 
 Se usa javascripts para simplificar index.html creando card dinamicas
 
-<<<<<<< HEAD
 Se crean html para pronostico semanal para las ciudades Santiago, Madrid, londres, Berlin, Beijing y crea temperaturas maximas y  minimas semanal reactivas
 
 Se usa javascripts para simplificar las html de pronostico semanal (HTML detalles, detalles2, detalles3, detalles6 y detalles7) creando card dinamicas
-=======
-Se crean html para pronostico semanal para las ciudades Santiago, Madrid, londres, Berlin, Beijing
-
-Se usa javascripts para simplificar las html de pronostico semanal (HTML detalles, detalles2, detalles3, detalles6 y detalles7) creando card dinamicas
-
->>>>>>> 7c9d7d13b9e4142262fdaa482f0053745aba8748
 ## Contributing
 
 Para contribuciones contactar mediante mail ElClima@noexiste.com
