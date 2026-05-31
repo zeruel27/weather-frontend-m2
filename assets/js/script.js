@@ -113,8 +113,7 @@ container.innerHTML += `
             <p class="card-text">
             <h1 class="bi bi-thermometer-half">${pagina[i].current.temperature_2m}&deg;C</h1>
             <h2 class="bi bi-wind">${pagina[i].current.wind_speed_10m}km/h</h2>
-            <h1 class="bi bi-thermometer-half">${data[i].text}&deg;C</h1>
-            <h2 class="bi bi-wind">${data[i].text2}km/h</h2>
+            </p>
           </div>
         </div>
       </div>
